@@ -5,10 +5,8 @@
 # Basic
 name:               "Thevelop"
 
-
-
 author:
-  name:             your-name
+  name:             Tobias Scheepers
   facebook:         your-id
   twitter:          your-id
   github:           https://github.com/theveloped
@@ -17,22 +15,13 @@ author:
   tumblr:           your-id
   email:            thevelop@gmail.com
 
-# Google-analytics
-google-analytics:
-  id:               ""
-
-# Disqus
-disqus:
-  id:               "thevelop"
-
 # URL
 #url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
 url:                "https://theveloped.github.io" # use this url when develop
 baseurl:            "" # the subpath of your site, e.g. /blog
 
-
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
+timezone:           Europe/Amsterdam
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
