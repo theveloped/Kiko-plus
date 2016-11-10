@@ -26,7 +26,6 @@ layout: default
 
   {{ content }}
 
-
   <!-- Share -->
   {% if page.share != false %}
   <div class="post-share">
@@ -36,8 +35,8 @@ layout: default
   </div>
   {% endif %}
 
-  <!-- Disqus -->
-  {% if page.comments != false and site.disqus.id %}
+  <!-- comments.network -->
+  {% if page.comments != false and page.HN %}
   <section id="disqus_thread"></section>
   {% include commentsNetwork.html %}
   {% endif %}
