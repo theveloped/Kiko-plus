@@ -27,6 +27,7 @@
         font-size: 20px;
 font-style: normal;
 margin-left: 20px;
+text-decoration: none;
 }
 
 .flaticon-app-store-apple-symbol:before { content: "\f100"; }
