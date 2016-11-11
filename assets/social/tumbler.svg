@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+
+  <path id="outline" stroke-width="0.5pt" stroke-linejoin="round" stroke="#5b5b5b" opacity="0" fill="none" stroke-miterlimit="10" d="M13.5.5v5h5v4h-5v5.515c0 5.028 3.52 4.427 6 2.798v4.433c-6.728 3.172-12-.064-12-4.255v-8.491h-3v-2.832c.903-.293 2.245-.714 2.889-1.261.646-.551 1.162-1.208 1.551-1.976.391-.767.66-1.745.806-2.931h3.754z">
+
+    <animate fill="freeze" dur="0.25s" attributeName="opacity" from="0" to="1" begin="filled.mouseover"/>
+    <animate fill="freeze" dur="0.25s" attributeName="opacity" from="1" to="0" begin="filled.mouseout"/>
+
+  </path>  
+
+  <path id="filled" fill="#5b5b5b" stroke-miterlimit="10" d="M13.5,0.5v5h5v4h-5v5.515c0,5.028,3.52,4.427,6,2.798v4.433c-6.728,3.172-12-0.064-12-4.255V9.5h-3V6.668 c0.903-0.293,2.245-0.714,2.889-1.261c0.646-0.551,1.162-1.208,1.551-1.976C9.331,2.664,9.6,1.686,9.746,0.5H13.5z">
+
+    <animate fill="freeze" dur="0.25s" attributeName="opacity" from="1" to="0" begin="mouseover"/>
+    <animate fill="freeze" dur="0.25s" attributeName="opacity" from="0" to="1" begin="mouseout"/>
+
+  </path>
+
+</svg>

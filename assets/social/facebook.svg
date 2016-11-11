@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+
+  <path id="outline" stroke-width="0.5pt" stroke-linejoin="round" stroke="#5b5b5b" opacity="0" fill="none" stroke-miterlimit="10" d="M18.768 7.5h-4.268v-1.905c0-.896.594-1.105 1.012-1.105h2.988v-3.942l-4.329-.013c-3.927 0-4.671 2.938-4.671 4.82v2.145h-3v4h3v12h5v-12h3.851l.417-4z">
+
+    <animate fill="freeze" dur="0.25s" attributeName="opacity" from="0" to="1" begin="filled.mouseover"/>
+    <animate fill="freeze" dur="0.25s" attributeName="opacity" from="1" to="0" begin="filled.mouseout"/>
+
+  </path>  
+
+  <path id="filled" fill="#5b5b5b" stroke-miterlimit="10" d="M18.768,7.465H14.5V5.56c0-0.896,0.594-1.105,1.012-1.105s2.988,0,2.988,0V0.513L14.171,0.5C10.244,0.5,9.5,3.438,9.5,5.32 v2.145h-3v4h3c0,5.212,0,12,0,12h5c0,0,0-6.85,0-12h3.851L18.768,7.465z">
+
+    <animate fill="freeze" dur="0.25s" attributeName="opacity" from="1" to="0" begin="mouseover"/>
+    <animate fill="freeze" dur="0.25s" attributeName="opacity" from="0" to="1" begin="mouseout"/>
+
+  </path>
+
+</svg>
