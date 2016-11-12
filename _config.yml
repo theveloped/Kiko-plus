@@ -6,15 +6,15 @@
 name:               "Thevelop"
 
 author:
-  name:             Tobias Scheepers
+  name:             "Tobias Scheepers"
   facebook:         your-id
   twitter:          your-id
-  github:           https://github.com/theveloped
+  github:           "theveloped"
   linkedin:         your-id
   medium:           your-id
   tumblr:           your-id
   email:            thevelop@gmail.com
-  google+:          "101990278525964205044"
+  google:           "101990278525964205044"
 
 # URL
 #url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
