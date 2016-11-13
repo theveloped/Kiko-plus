@@ -4,27 +4,7 @@ title: Tags
 tag: "intro"
 ---
 
-{% capture site_tags %}
-{% for tag in site.tags %}
-{{ tag | first }}{% unless forloop.last %},{% endunless %}
-{% endfor %}
-{% endcapture %}
-
-{% assign tags_list = site_tags | split:',' | sort %}
-
-<ul>
-  {% for item in (0..site.tags.size) %}
-  {% unless forloop.last %}
-    {% capture this_tag %}{{ tags_list[item] | strip_newlines }}{% endcapture %}
-  	<li class="tag-index">
-      <a href="#{{ this_tag }}">
-        <span>{{ this_tag }}</span>
-        <span class="count">{{ site.tags[this_tag].size }}</span>
-      </a>
-    </li>
-  {% endunless %}
-  {% endfor %}
-</ul>
+{% include tags.html %}
 
 {% for post in site.posts %}
   {% if post.tags contains page.tag %}
