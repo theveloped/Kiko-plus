@@ -8,5 +8,9 @@ layout: default
 </header>
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.subtitle %}
+    <span> {{ page.subtitle }}</span>
+  {% ifend %}
+
   {{ content }}
 </div>
