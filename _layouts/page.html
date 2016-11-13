@@ -7,10 +7,14 @@ layout: default
   </h1>
 </header>
 <div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
+
   {% if page.subtitle %}
-    <span> {{ page.subtitle }}</span>
-  {% ifend %}
+  <h1 class="page-title"><a href="{{site.url}}{{site.baseurl}}/archive" style="text-decoration: none; color: inherit;">{{ page.title }}</a>
+    <span class="header-title"> | {{ page.subtitle }}</span>
+  </h1>
+  {% else %}
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% endif %}
 
   {{ content }}
 </div>
