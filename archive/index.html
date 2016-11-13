@@ -7,9 +7,9 @@ title: Archive
   {% if site.posts.size == 0 %}
     <h2>No post found</h2>
   {% else %}
+  
+  {% include tags.html %}
   {% for post in site.posts %}
-    {% include tags.html %}
-
     <div class="archive-list-post">
       {% if post.link %}
       <a href="{{ post.link }}">
