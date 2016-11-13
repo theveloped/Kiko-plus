@@ -1,26 +1,5 @@
 ---
-layout: page
-title: Tags
+layout: archive
+title: Tags, intro
 tag: "intro"
 ---
-
-{% include tags.html %}
-
-{% for post in site.posts %}
-  {% if post.tags contains page.tag %}
-    <div class="archive-list-post">
-      {% if post.link %}
-      <a href="{{ post.link }}">
-      {% else %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
-      {% endif %}  
-        <span class="archive-list-post-title">
-          {{ post.title }}
-        </span>
-        <span class="archive-list-post-date">
-          <time>| {{ post.date | date_to_string }}</time>
-        </span>
-      </a>
-    </div>
-  {% endif %}
-{% endfor %}
