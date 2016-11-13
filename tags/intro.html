@@ -29,8 +29,8 @@ tag: Intro
 <article>
 
 {% for post in site.posts %}
-  {% if tag in post.tags %}
   <div class="archive-list-post">
+    post.tags
     {% if post.link %}
     <a href="{{ post.link }}">
     {% else %}
@@ -44,7 +44,6 @@ tag: Intro
       </span>
     </a>
   </div>
-  {% endif %}
 {% endfor %}
 
 </article>
