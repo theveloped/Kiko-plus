@@ -30,7 +30,7 @@ tag: Intro
 
 {% for post in site.posts %}
   <div class="archive-list-post">
-    post.tags
+    {{ post.tags }}
     {% if post.link %}
     <a href="{{ post.link }}">
     {% else %}
