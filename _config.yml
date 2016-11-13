@@ -66,12 +66,6 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
-  -
-    scope:
-      path:         ""
-      type:         "page"
-    values:
-      layout:       "archive"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 gems:
