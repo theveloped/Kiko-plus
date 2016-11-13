@@ -69,7 +69,7 @@ defaults:
   -
     scope:
       path:         ""
-      type:         "archives"
+      type:         "page"
     values:
       layout:       "archive"
 
