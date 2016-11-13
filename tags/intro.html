@@ -27,7 +27,7 @@ tag: "intro"
 </ul>
 
 {% for post in site.posts %}
-  {% if post.tags contains "intro" %}
+  {% if post.tags contains page.tag %}
     <div class="archive-list-post">
       {% if post.link %}
       <a href="{{ post.link }}">
