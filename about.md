@@ -1,6 +1,5 @@
 ---
 title: About
-permalink: /about/
 ---
 
 This blog is demo blog for [Kiko Plus](https://github.com/AWEEKJ/Kiko-plus)
@@ -13,7 +12,7 @@ This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme, powered b
 - Google analytics
 - Pagination support
 - Custom tags
-- SEO support
+- SEO support hi there
 
 
 ## Installation

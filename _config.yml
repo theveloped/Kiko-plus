@@ -16,14 +16,15 @@ author:
 #url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
 url:                "https://theveloped.github.io" # use this url when develop
 baseurl:            "" # the subpath of your site, e.g. /blog
+blogurl:            "/blog"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           Europe/Amsterdam
-permalink:          /:year-:month-:day/:title/
+permalink:          /blog/:year-:month-:day/:title/
 
 # Pagination
 paginate:           5
-paginate_path:      /page:num/
+paginate_path:      /blog/page:num/
 
 # Markdown
 markdown:           kramdown
@@ -34,8 +35,10 @@ kramdown:
 nav:
   - name:           "About"
     url:            "/about"
+  - name:           "Blog"
+    url:            "/blog"
   - name:           "Archive"
-    url:            "/archive"
+    url:            "/blog/archive"
   - name:           "Github"
     url:            "https://github.com/theveloped"
 
