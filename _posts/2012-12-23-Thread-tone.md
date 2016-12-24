@@ -169,7 +169,7 @@ Once the algorithm no longer finds any possible lines the loop is broken and the
 
 Always fascinated by the ease at which a lasercutter can produce quality parts I set out to build my own. It turned out I could never get myself to make the last investment and actually buy the lasertube/optics. This means I have a huge part of my small student room filled with this big Cartesian plotter. Coming across Petros's project it finally got a purpose.
 
-<video style="border-radius: 5px;" width="720" height="410" autoplay loop>
+<video style="border-radius: 5px;" width="720" height="400" autoplay loop>
   <source src="/assets/threadTone/cnc.mp4" type="video/mp4">
 </video>
 
