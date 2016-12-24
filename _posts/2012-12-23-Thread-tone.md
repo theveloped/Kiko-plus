@@ -175,6 +175,6 @@ Always fascinated by the ease at which a lasercutter can produce quality parts I
 
 Parsing the resulting line coordinates to G-code allows for some NC threading. A pen was used to develop a small guide for the thread. Below one can find the initial result of about 900 lines completed. At this point the thread broke and I called it a day. I will update the post with some images of the full result once I have some time to retry.
 
-<img style="" src="/assets/threadTone/threaded.jpg">
+<img style="" src="/assets/threadTone/threaded.png">
 
 The full code is posted to [GitHub](https://github.com/theveloped) and with some explanation on the tuning parameters. Any remarks or advise is most welcome and feel free to contact me with any questions. 
