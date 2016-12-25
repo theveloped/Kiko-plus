@@ -4,7 +4,8 @@ title: "ThreadTone"
 description: "A halftone representation of an image made of thread."
 date: 2016-12-25
 tags: [python, automation, cnc, image processing, art]
-comments: false
+comments: true
+HN: 13254029
 share: true
 ---
 
