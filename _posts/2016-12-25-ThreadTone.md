@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "ThreadTone images made of thread"
-description: "A ton of text to test readability."
+title: "ThreadTone"
+description: "A halftone representation of an image made of thread."
 date: 2016-12-25
 tags: [python, automation, cnc, image processing, art]
 comments: false
