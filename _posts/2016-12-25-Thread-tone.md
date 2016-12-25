@@ -2,7 +2,7 @@
 layout: post
 title: "ThreadTone images made of thread"
 description: "A ton of text to test readability."
-date: 2012-05-22
+date: 2016-12-25
 tags: [python, automation, cnc, image processing, art]
 comments: false
 share: true
