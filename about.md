@@ -2,7 +2,7 @@
 title: About
 ---
 
-So who am I, you ask? My name is Tobias Scheepers a fresh mechanical engineer from the Delft University of Technology. Most of my spare time is spend designing, producing and assembling all kind of projects. Be it NC machinery, mechatronic projects or simply software as most of the projects on this site.
+So who am I, you ask? My name is Tobias Scheepers a fresh mechanical engineer from the Delft University of Technology. Most of my spare time is spent designing, producing and assembling all kind of projects. Be it NC machinery, mechatronic projects or simply software as most of the projects on this site.
 
 As a fresh graduate I'm currently looking to join a great team, working on a state of the art hardware project. So if you have any idea's don't hesitate to contact me.
 
@@ -29,7 +29,7 @@ As a fresh graduate I'm currently looking to join a great team, working on a sta
       <button class="btn" type="submit">Request my CV</button>
   </form>
 
-    If you like the work I do and think you might fit in your team please get in touch or share my resume with your hiring manager. As a small check to see if you are not simply a scraper or adding my CV to a large and bottomless pit I've added a small "knowledgeWall". Please enter the rounded answer to one of the questions below, if correct I will send you my CV automatically.
+    If you like the work I do and think I might fit in your team please get in touch or share my resume with your hiring manager. As a small check to see if you are not simply a scraper or adding my CV to a large and bottomless pit I've added a small "knowledgeWall". Please enter the rounded answer to one of the questions below, if correct I will send you my CV automatically.
 </div>  
 
 <div style="overflow: auto; width: 100%;">
