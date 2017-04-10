@@ -3,8 +3,7 @@ layout: post
 title: "Pure SVG social icons"
 description: "Animated social icons without JS or CSS"
 tags: [svg, web design]
-comments: true
-HN: 13364291
+comments: false
 share: true
 ---
 
