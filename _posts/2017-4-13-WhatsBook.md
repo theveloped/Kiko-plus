@@ -4,8 +4,8 @@ title: "WhatsBook"
 description: "Paper archive of your whatsApp conversations"
 date: 2017-4-13
 tags: [python, image processing, LaTeX]
-comments: False
-HN: 13254029
+comments: True
+HN: 14107312
 share: true
 ---
 
