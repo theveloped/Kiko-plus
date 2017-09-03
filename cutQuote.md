@@ -10,7 +10,6 @@ xhr.onreadystatechange = function() {
   }
 };
 xhr.open('GET', 'https://www.thevelop.io/app?apiKey=5738196700758016', true);
-xhr.withCredentials = true;
 xhr.send();
 </script>
 
