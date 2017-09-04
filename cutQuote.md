@@ -8,7 +8,7 @@ xhr.onreadystatechange = function() {
   console.log("[+] XHR received")
   console.log(xhr.readystate)
   console.log(xhr.status)
-  if(xhr.readystate == 4 && xhr.status == 200) {
+  if(xhr.status == 200) {
     document.getElementById('smartparts').innerHTML = xhr.responseText;
   }
 };
