@@ -4,12 +4,12 @@ title: cutQuote
 
 <script>
 xhr = new XMLHttpRequest();
-xhr.onload = function() {
+xhr.onreadystatechange = function() {
   if(xhr.readystate == 4 && xhr.status == 200) {
     document.getElementById('smartparts').innerHTML = xhr.responseText;
   }
 };
-xhr.open('GET', 'https://www.thevelop.io/app?apiKey=5738196700758016', true);
+xhr.open('GET', 'http://www.thevelop.io/app?apiKey=5738196700758016', true);
 xhr.withCredentials = true;
 xhr.send();
 </script>
