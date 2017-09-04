@@ -4,7 +4,7 @@ title: cutQuote
 
 <script>
 xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function() {
+xhr.onload = function() {
   if(xhr.readystate == 4 && xhr.status == 200) {
     document.getElementById('smartparts').innerHTML = xhr.responseText;
   }
